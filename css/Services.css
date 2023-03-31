@@ -364,18 +364,9 @@ min-height: 100vh;
 
 .story-section .story-text h3{
     font-size: 24px;
-    margin: 0 0 8px;
+    margin: 0 0 20px;
     color: #080808;
     font-weight: 500;
-    text-transform: capitalize;
-}
-
-.story-section .story-text span.date{
-    font-size: 15px;
-    font-weight: 700;
-    color: #555555;
-    margin: 0 0 15px;
-    display: block;
     text-transform: capitalize;
 }
 
@@ -383,7 +374,7 @@ min-height: 100vh;
     font-size: 16px;
     line-height: 26px;
     margin: 0;
-    color: #555555;
+    color: #161616;
 }
 
 /* contact items */
