@@ -242,9 +242,10 @@ footer{
 }
 
 .home-section .home-content p{
-    font-size: 24px;
+    font-size: 40px;
     color: #ffffff;
     margin: 0 0 15px;
+    font-family: 'Sansita', sans-serif;
 }
 
 .home-section .slide.active .home-content p{
@@ -285,20 +286,6 @@ footer{
     margin: 15px 0 0;
     transition: scale .2 ease;
     letter-spacing: 0.5px;
-}
-
-.home-section .home-content span:hover{
-    scale: 1.05;
-}
-
-.home-section .home-content span:active{
-    scale: 0.95;
-}
-
-.home-section .slide.active .home-content span{
-    opacity: 0;
-    animation: fadeInTop 1s ease forwards;
-    animation-delay: 1s;
 }
 
 /* gallery-section */

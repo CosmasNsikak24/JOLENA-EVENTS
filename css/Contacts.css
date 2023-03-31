@@ -237,11 +237,11 @@ min-height: 100vh;
 }
 
 .home-section .home-content h1{
-    font-size: 60px;
+    font-size: 80px;
     color: #ffffff;
     margin: 0;
     font-weight: normal;
-    font-family: var(--Poppins);
+    font-family: 'Sansita', sans-serif;
 }
 
 /* Contact form */
@@ -457,6 +457,7 @@ textarea.contact-input ~ label{
         max-width: 100%;
         background-color: #ffffff;
         display: none;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     }
 
     .header .nav ul li{

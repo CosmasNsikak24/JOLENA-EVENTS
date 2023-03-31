@@ -229,36 +229,45 @@ a{
     color: #e6cc00;
     scale: 1.05;
 }
-
-/* Home Section */
-
-.slides1{
+/* Home section */
+.home-section{
+    min-height: 100vh;
     position: relative;
-    padding: 0 2rem;
+}
+
+.home-section .slide{
+    background: linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_9439.JPG);
     height: 100vh;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_9439.JPG);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
 }
 
-.slides1 .row{
-    min-height: 100vh;
+.slide .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }
 
-.slides1 .home-content{
+.home-section .row{
+min-height: 100vh;
+}
+
+.home-section .home-content{
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 15px;
     text-align: center;
 }
 
-.slides1 .home-content h1{
+.home-section .home-content h1{
     font-size: 50px;
     color: #ffffff;
     margin: 0;
     font-weight: normal;
-    font-family:var(--Poppins);
+    font-family: var(--Poppins);
 }
 
 /* Section Main */
