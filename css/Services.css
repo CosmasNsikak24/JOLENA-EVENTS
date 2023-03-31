@@ -278,17 +278,6 @@ min-height: 100vh;
     animation-delay: 0.5s;
 }
 
-.home-section .home-content span{
-    font-size: 17px;
-    display: inline-block;
-    border: 2.5px solid #ffffff;
-    border-radius: 5px;
-    padding: 6px 10px;
-    margin: 15px 0 0;
-    transition: scale .2 ease;
-    letter-spacing: 0.5px;
-}
-
 /* story section */
 
 .story-section{
