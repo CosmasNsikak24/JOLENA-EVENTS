@@ -288,12 +288,7 @@
         </div>
     
         <div class="video-container">
-            <div class="video"><img src="./assets/IMG_3074video.jpg" alt="vid1"></div>  
-        </div>
-    
-        <div class="popup-video">
-            <span>&times;</span>
-            <video src="./assets/Udy Event Planner (1).MOV" muted autoplay controls></video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YrhnOZe_Y9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     
     </div>    
@@ -324,8 +319,6 @@
     <div class="footer">
         <div class="container-footer">
             <div class="quicklinks">
-                <p>+1 (713) 815-1821</p>
-                <p>Jolenaevents@gmail.com</p>
             </div>
             <div class="logo2">
                 <img src="./css/assets/jolena Image resized.png" style="height: 6rem;" alt="">
@@ -340,18 +333,6 @@
     </div>
 </footer>
 <!-- footer ends -->
-    <script>
-    document.querySelectorAll('.video-container img').forEach(img => {
-    img.onclick = () =>{
-        document.querySelector('.popup-video').style.display = 'block';
-        document.querySelector('.popup-video video').src = vid.getAttribute('src')
-    }
-    });
-
-    document.querySelector('.popup-video span').onclick = () =>{
-    document.querySelector('.popup-video').style.display = 'none';
-    }
-    </script>
     <script>
         const toggleBtn = document.querySelector('.toggle_btn')
         const toggleBtnIcon = document.querySelector('.toggle_btn i')

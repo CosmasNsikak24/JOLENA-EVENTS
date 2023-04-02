@@ -386,7 +386,7 @@ section .container .owl-nav{
 /* Middle Picture */
 
 .pic{
-    background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_3074.JPG);
+    background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_7319.PNG);
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -733,16 +733,6 @@ section .container .owl-nav{
     justify-content: space-between;
 }
 
-.quicklinks{
-    padding-top: 20px;
-}
-
-.quicklinks p{
-    text-align: justify;
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Abril', sans-serif;
-}
 
 .follow{
     padding-top: 30px;
@@ -844,10 +834,6 @@ section .container .owl-nav{
         display: block;
         text-align: center;
         align-items: center;
-    }
-
-    .quicklinks p{
-        text-align: center;
     }
 
     .logo2{
