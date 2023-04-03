@@ -179,9 +179,8 @@ a{
     right: 2rem;
     top: 60px;
     width: 300px;
-    background: rgba(255, 255, 255, .1);
+    background: #fcfdff;
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
-    backdrop-filter: blur(15px);
     border-radius: 5px;
     overflow: hidden;
     height: 0;
@@ -586,14 +585,12 @@ section .container .owl-nav{
 .two{
     border-top: 1px solid #bdbcbc;
     margin-bottom: 50px;
-    display: none;
 }
 
 .hidden-message{
     text-align: center;
     font-weight: 600;
     text-justify: auto;
-    display: none;
     margin-bottom: 50px;
 }
 
@@ -612,87 +609,16 @@ section .container .owl-nav{
 }
 
 .container3{
-    display: flex;
     position: relative;
     padding: 80px 8%;
 }
 
 .container3 .video-container{
     display: flex;
+    flex: 0 0 100%;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-}
-
-.container3 .video-container .video{
-    height: 250px;
-    width: 400px;
-    box-shadow: 0 .5px 15px rgba(0, 0, 0, .5);
-    overflow: hidden;
-    cursor:pointer;
-    border-radius: 5px 4rem 5px 4rem;
-}
-
-.container3 .video-container .video img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: none;
-    cursor: pointer;
-    transition: .2s linear;
-}
-
-.container3 .video-container .video img:hover{
-    transform: scale(1.1);
-}
-
-.container3 .popup-video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background: rgba(0, 0, 0, .8);
-    height: 100%;
-    width: 100%;
-    display: none;
-}
-
-.container3 .popup-video video{
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50px -50px);
-    width: 750px;
-    object-fit: cover;
-}
-
-.container3 .popup-video span{
-    position: absolute;
-    top: 5px;
-    right: 20px;
-    font-size: 40px;
-    color: #fff;
-    font-weight: 50;
-    z-index: 100;
-    cursor: pointer;
-}
-
-.write-up2{
-    color: #fff;
-    font-size: 20px;
-    letter-spacing: .5px;
-    font-family: 'Sansita', sans-serif;
-}
-
-.write-up2 a{
-    border-color: #fcfdff;
-    color: #fcfdff;
-    font-weight: 100;
-    margin: 50px 0;
-}
-
-.write-up2 a:hover{
-    background: none;
 }
 
 /* contact items */
