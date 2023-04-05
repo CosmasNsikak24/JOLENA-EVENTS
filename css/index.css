@@ -339,7 +339,7 @@ min-height: 100vh;
 }
 
  .blog-content .blog-title{
-    padding: 2rem 0;
+    padding: 2rem 2px;
 }
 
 section .container .owl-nav{
@@ -562,6 +562,13 @@ section .container .owl-nav{
     text-align: center;
 }
 
+.layer a i:hover{
+    scale: 1.2;
+}
+
+.layer a i:active{
+    scale: 0.95;
+} 
 
 .work:hover img{
     transform: scale(1.1);
@@ -574,7 +581,6 @@ section .container .owl-nav{
 /* static photo2 */
 .pic2{
     background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/gene-gallin-rBt6OS_1xoI-unsplash\ \(1\)blured.jpg);
-    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -659,6 +665,30 @@ section .container .owl-nav{
     justify-content: space-between;
 }
 
+.move-up{
+    padding-top: 30px;
+}
+
+.move-up:hover{
+    scale: 1.05;
+}
+
+.move-up:active{
+    scale: 0.95;
+}
+
+.move-up span{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.move-up span:hover{
+    color: #ffab00;
+}
+
+.logo2{
+    margin-left: 4%;
+}
 
 .follow{
     padding-top: 30px;
@@ -762,8 +792,14 @@ section .container .owl-nav{
         align-items: center;
     }
 
+    .move-up{
+        margin-bottom: 70px;
+        margin-left: 6%;
+    }
+
     .logo2{
         margin-top: 50px;
+        margin-left: 0;
     }
 
     .follow{

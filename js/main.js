@@ -52,14 +52,13 @@ $('.owl-carousel').owlCarousel({
 
 
 // click to scroll top
-$('.move-up span').click(function(){
-    $('html,body').animate({
+$('.move-up').click(function(){
+    $('html, body').animate({
         scrollTop:0
-    },2000);
+    },1000);
 })
 
 // AOS INSTANCE
 AOS.init()
-
 
 });

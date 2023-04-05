@@ -456,15 +456,29 @@ footer{
     justify-content: space-between;
 }
 
-.quicklinks{
-    padding-top: 20px;
+.move-up{
+    padding-top: 30px;
 }
 
-.quicklinks p{
-    text-align: justify;
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Abril', sans-serif;
+.move-up:hover{
+    scale: 1.05;
+}
+
+.move-up:active{
+    scale: 0.95;
+}
+
+.move-up span{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.move-up span:hover{
+    color: #ffab00;
+}
+
+.logo2{
+    margin-left: 4%;
 }
 
 .follow{
@@ -561,13 +575,15 @@ footer{
         text-align: center;
         align-items: center;
     }
-
-    .quicklinks p{
-        text-align: center;
+    
+    .move-up{
+        margin-bottom: 70px;
+        margin-left: 6%;
     }
 
     .logo2{
         margin-top: 50px;
+        margin-left: 0;
     }
 
     .follow{
