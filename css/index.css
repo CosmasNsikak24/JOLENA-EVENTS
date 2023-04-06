@@ -811,12 +811,23 @@ section .container .owl-nav{
         background: #080808;
         justify-content: space-between;
     }
+
+    .home-section .home-content h1{
+        font-size: 60px;
+    }
+
 }
 
 @media(max-width: 576px){
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+}
+
+@media(max-width: 547px){
+    .home-section .home-content h1{
+        font-size: 34.6px;
     }
 }
 
