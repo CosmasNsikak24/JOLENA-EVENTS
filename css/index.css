@@ -1,7 +1,7 @@
 @import url('../CSS/fonts.css');
 :root{
     --bg-black-500: #fcfdff;
-    --bg-black-900: #f0f2f5;
+    --bg-black-900: #f5f6f8;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
     --text-black-900: #080808;
@@ -235,7 +235,7 @@ a{
 }
 
 .home-section .slide{
-    background: linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/IMG_9439.JPG);
+    background:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)), url(./assets/HOME.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -251,7 +251,7 @@ a{
 }
 
 .home-section .row{
-min-height: 100vh;
+    min-height: 100vh;
 }
 
 .home-section .home-content{
@@ -391,6 +391,8 @@ section .container .owl-nav{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .inside{
@@ -401,7 +403,6 @@ section .container .owl-nav{
     font-size: 35px;
     letter-spacing: .5px;
     color: #fcfdff;
-    letter-spacing: .7px;
     font-family: 'Sansita', sans-serif;
 }
 
@@ -435,7 +436,6 @@ section .container .owl-nav{
 
 .subtitle{
     font-family: 'Abril', sans-serif;
-    letter-spacing: .5px;
 }
 
 .services-list{
@@ -586,6 +586,8 @@ section .container .owl-nav{
     background-attachment: fixed;
     background-position: top;
     border-radius: 20px;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .two{
@@ -758,6 +760,10 @@ section .container .owl-nav{
 
     .subtitle{
         text-align: center;
+    }
+
+    .btn1{
+        letter-spacing: normal;
     }
 }
 
